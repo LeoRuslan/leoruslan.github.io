@@ -1,4 +1,4 @@
-# Ruslan Palchuk - Web CV
+# Web CV
 
 Personal website and online CV built with HTML, CSS, and JavaScript.
 

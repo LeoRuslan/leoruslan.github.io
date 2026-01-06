@@ -288,6 +288,18 @@ ul {
     padding: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
     transition: box-shadow var(--transition-base);
+    position: relative;
+}
+
+.experience-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: calc(-1 * var(--spacing-lg) / 2 - 1px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--color-border), transparent);
 }
 
 .experience-item:hover {
