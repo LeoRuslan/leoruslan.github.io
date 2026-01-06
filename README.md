@@ -25,7 +25,8 @@ Personal website and online CV built with HTML, CSS, and JavaScript.
 ├── index.html   # English version
 ├── uk.html      # Ukrainian version
 ├── styles.css   # Styling
-└── script.js    # Theme toggle
+├── script.js    # Theme toggle
+└── resume.tex   # LaTeX version
 ```
 
 ## License
